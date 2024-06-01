@@ -12,13 +12,14 @@ public class _10VarArgs {
             // result *= a;
 
             result += a;
+
         }
-        return (result);
+        return (result / arr.length);
     }
 
     public static void main(String[] args) {
         System.out.println("welcome to varArgs tutorial");
-        System.out.println("the sum of 4 ,6,80 and 5 is " + sum(4, 5, 7, 8, 80));
+        System.out.println("the avrage of 4 ,6,80 and 5 is " + sum(4, 5, 6, 80));
 
     }
 }
