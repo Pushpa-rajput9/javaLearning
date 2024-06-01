@@ -10,15 +10,15 @@ public class _10VarArgs {
         int result = 1;
         for (int a : arr) {
             // result *= a;
-            result /= a;
-            // result += a;
+
+            result += a;
         }
         return (result);
     }
 
     public static void main(String[] args) {
         System.out.println("welcome to varArgs tutorial");
-        // System.out.println("the sum of 4 ,6,80 and 5 is " + sum(4, 5, 7, 8, 80));
-        System.out.println("the divide is " + sum());
+        System.out.println("the sum of 4 ,6,80 and 5 is " + sum(4, 5, 7, 8, 80));
+
     }
 }
