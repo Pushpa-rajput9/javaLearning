@@ -32,6 +32,9 @@ public class _6MethodOverriding {
         b.meth2();
         b.meth3();
         System.out.println(b.harry());
+        // dynamic method despatch
+        A a2 = new B(); // meth2 will run of class B because object is formed of class B
+        a2.meth2();
     }
 
 }
