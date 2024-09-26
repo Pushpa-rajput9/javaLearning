@@ -52,6 +52,7 @@ public class Library {
         L.addBook("json");
         L.showAvailableBook();
         L.issueBook("c++");
+        L.issueBook("json");
         L.showAvailableBook();
         L.returnBook("c++");
         L.showAvailableBook();
