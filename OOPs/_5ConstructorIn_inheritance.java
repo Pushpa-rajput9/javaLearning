@@ -40,7 +40,7 @@ public class _5ConstructorIn_inheritance {
     public static void main(String[] args) {
         Base1 b = new Base1();
         b.setx(20);
-        Derived1 d = new Derived1(9, 6);
+        // Derived1 d = new Derived1(9, 6);
 
         // System.out.println(b.getx());
     }
